@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pendaftaran Formulir Relawan - (Volunteer)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+   <header>
+    <span><h2><b>Formulir Chepy<b></h2></span>
+   </header>
+  </div>
+  <hr>
+  <br>
+  <div class="dyadia">
+  <img src="dyadia.jpg" alt="Dyadia"></img>
+  <p>Silakan Masukkan Data untuk melanjutkan.</p>
+  <br>
+  </div>
+  <hr>
+  <form action="/action_page.php" "/upload" method="post" enctype="multipart/form-data">
+  <h3 class="pertama">1) Informasi Pribadi</h3>
+  <div class="child-pertama">
+        <li><strong>Nama Lengkap:</strong><br>
+        <label for="namadepan">Nama Depan:</label><br>
+  <input type="text" id="namadepan" name="namadepan"></input><br>
+  <label for="namabelakang">Nama Belakang:</label><br>
+  <input type="text" id="namabelakang" name="namabelakang"></input><br>
+</form>
+<form>
+  </div>
+  <div>
+        <label for="date"><li>Tanggal Lahir:</label>
+        <input type="date"></input>
+  </div>
+  <div>
+        <b><li>Jenis Kelamin:</b><br>
+        <label for="men">Laki-laki</label>
+        <input type="radio" id="men" name="gender"></input>
+        <label for="women">Perempuan</input>
+        <input type="radio" id="women" name="gender"></input>
+        <label for="other">Lainnya</label>
+        <input type="radio" id="other" name="gender"></input>
+  </div>
+  <div>
+        <b id="alamat"><li>Alamat (Domisili Saat Ini):</b><br>
+        <textarea id="alamat" name="address"></textarea><br>
+        <label for="telepon"><li>Nomor Telepon (WhatsApp atau Telepon Aktif):</label>
+        <input type="number"></input><br>
+        <label for="email"><li>Email (Untuk Komunikasi Lebih Lanjut):</label><br>
+        <input type="text"></input>
+  </div>
+  <div>
+        <br><hr><h3 class="kedua">2) Informasi Pendidikan</h3>
+        <label for="pendidikan"><li>Pendidikan Terakhir:</label>
+        <select>
+          <option>SD</option>
+          <option>MI</option>
+          <option>SMP</option>
+          <option>MTS</option>
+          <option>SMA</option>
+          <option>SMK</option>
+          <option>SLB</option>
+          <option>D3</option>
+          <option>S1</option>
+          <option>S2-S5</option>
+          <option>Pekerja</option>
+          <option>Guru</option>
+          <option>Lainnya</option>
+        </select>
+  </div>
+  <div>
+        <label for="pekerjaan"><li>Pekerjaan saat ini:</label>
+        <select>
+          <option>Pelajar</option>
+          <option>Mahasiswa</option>
+          <option>Pekerja</Pekerja>
+          <option>Guru</option>
+          <option>Wiraswasta</option>
+          <option>Pedagang</option>
+        </select>
+  </div>
+  <div>
+        <label for="skill"><li>Keahilan & Kompetensi</label><br>
+        <input type="checkbox">Public Speaking</input><br>
+        <input type="checkbox">Desain</input><br>
+        <input type="checkbox">Penulisan</input><br>
+        <input type="checkbox">Coding/Web</input><br>
+        <input type="checkbox">Membuat Game</input>
+  </div>
+  <div>
+        <br><hr><h3 class="ketiga">3) Pengalaman Dan Motivasi</h3>
+        <b><li>Pernah Menjadi Volunteer? (Ya/Tidak, jika Ya, sebutkan pengalaman!)</b><br>
+        <label for="ya">Ya:</label>
+        <input type="radio" id="ya"><br><textarea id="ya"></textarea></input><br>
+        <label for="tidak">Tidak</label>
+        <input type="radio" id="tidak"></input>
+  </div>
+  <div>
+        <label for="motivasi"><li>Motivasi Bergabung (Kenapa ingin menjadi volunteer?)</label>
+        <textarea id="motivasi"></textarea>
+        <br><strong>Kosongkan jika tidak.</strong>
+  </div>
+  <div>
+        <label for="minat"><li>Bidang yang Diminati</label><br>
+        <input type="checkbox">Edukasi</input><br>
+        <input type="checkbox">Sosial</input><br>
+        <input type="checkbox">Kesehatan</input><br>
+        <input type="checkbox">Lingkungan</input><br>
+        <input type="checkbox" id="ekskul">Ekstrakulikuler:</input><br>
+        <textarea id="ekskul"></textarea><br>
+        <input type="checkbox" id="org">Organisasi Luar Sekolah:</input><br>
+        <textarea id="org"></textarea><br>
+  </div>
+       <br><hr><h3 class="keempat">4) Ketersediaan Waktu dan Lokasi</h3>
+<div class="child-keempat">
+        <label for="volunteer"><li>Bersedia volunteer di kota mana?</label><br>
+        <textarea id="volunteer"></textarea><br>
+        <strong>Kosongkan jika tidak.</strong>
+        <label for="waktu"><li>Waktu yang bisa disediakan?</label>
+        <select>
+        <option>Weekend</option>
+        <option>Weekday</option>
+        <option>Full-time</option>
+        <option>Part-time</option>
+        </select>
+  </div>
+  <div>
+        <br><hr><h3 class="kelima">5) Persetujuan dan Upload Dokumen</h3>
+        <b><label for="cv" id="cv"><li>Upload CV atau Surat Motivasi:</label><br><input type="file" id="cv" name="cv" accept=".jpg,.pdf,.png" id="fileUpload"></input></b>
+        <b><label for="foto" id="foto"><li>Upload Foto atau KTP (Jika diperlukan):</label><br><input type="file" id="foto" name="foto" accept=".jpg,.pdf,.png" id="fileUpload"></input></br>
+        <label for="syarat">Setuju dengan syarat & ketentuan?</label>
+        <input type="checkbox" id="syarat"></input><br>
+        <p>Dengan menyetujui syarat dan ketentuan ini, Anda berarti menerima semua syarat dan ketentuan yang ditetapkan oleh Kami.</p>
+  </div>
+  <div>
+        <button type="submit">Kirim</button><br>
+  </div>
+</form>
+  <footer>&copy; Copyright by Chepy Surdiansah. Since 2008.</footer>
+</body>
+</html>

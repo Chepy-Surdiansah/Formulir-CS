@@ -1,0 +1,70 @@
+header {
+  background-color: skyblue;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} /* Agar Header Rapi */
+
+b {
+  font-family: Arial, Georgia;
+}
+
+footer {
+  text-align: center;
+  padding: 15px 0;
+  background-color: skyblue;
+  color: #fff;
+  margin-top: 10px;
+  border-top: 2px;
+}
+
+body {
+  font-family: Arial, Georgia;
+  line-height: 2.6;
+  background-color: white;
+  color: #ffffff;
+  background-image: url('/bunga.jpg');
+}
+
+img {
+  margin: auto;
+  width: 100%;
+  border-radius: 50%;
+} /* Agar gambar tidak kelebihan besar */
+.dyadia {
+  text-align: center;
+  margin: auto;
+  width: 200px;
+} /* Agar gambar berada di tengah*/
+
+p {
+  padding: 1px;
+  margin: 1px;
+  letter-spacing: 0;
+  font-weight: 1px;
+}
+
+.pertama {
+  text-align: center;
+}
+
+.kedua {
+  text-align: center;
+}
+
+.ketiga {
+  text-align: center;
+
+.keempat {
+  text-align: center;
+}
+
+.kelima {
+  text-align-last: center;
+}
